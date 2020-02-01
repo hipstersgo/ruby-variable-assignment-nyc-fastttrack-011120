@@ -1,4 +1,4 @@
-command = ''
+puts command = ''
 
 while command != 'bye'
   puts command
