@@ -1,6 +1,6 @@
 command = ''
 
-while command != 'command.downcase'
+if command != 'command.downcase'
   puts 'HUH?! SPEAK UP, SON!'
   command = gets.chomp
 else
