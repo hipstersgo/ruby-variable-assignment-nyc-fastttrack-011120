@@ -4,4 +4,4 @@ var1 = number
 puts var1
 puts var1 + ' is a fine number! '
 var2 = var1.to_i + 1
-puts var2.to_i + ' is a better  number! '
+puts var2.to_s + ' is a better  number! '
