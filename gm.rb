@@ -6,7 +6,7 @@ while command = ''
   puts 'HUH?! SPEAK UP, SON!'
   command = gets.chomp
 else
-  if command != 'command.upcase'
+  if command == 'command.downcase'
     puts 'fuck you!'
 end
 
