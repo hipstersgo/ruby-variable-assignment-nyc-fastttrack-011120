@@ -8,6 +8,6 @@ end
 
 var1 = (rand1000)
 while command != command.downcase
-  puts 'NOT SINCE' + var1
+  puts 'NOT SINCE' + (var1.to_s)
   command = gets.chomp
 end
