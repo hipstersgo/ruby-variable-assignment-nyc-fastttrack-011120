@@ -6,4 +6,5 @@ while command == command.downcase
   command = gets.chomp
 end
 
-puts 'NOT SINCE 2020!'
+if command != command.downcase
+  puts 'NOT SINCE (rand2000)!'
