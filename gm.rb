@@ -6,6 +6,7 @@ if command == command.downcase
   command = gets.chomp
 else
   if command != command.downcase
-  puts 'NOT SINCE ' + rand(2000).to_s
-  command = gets.chomp
+    puts 'NOT SINCE ' + rand(2000).to_s
+    command = gets.chomp
+ end
 end
