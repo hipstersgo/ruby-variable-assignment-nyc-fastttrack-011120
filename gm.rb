@@ -8,4 +8,5 @@ while command = ''
 else
   if command == 'command.downcaseri'
     puts 'NOT SINCE 2020!'
+  end
 end
