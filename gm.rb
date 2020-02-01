@@ -7,6 +7,6 @@ while command == command.downcase
 end
 
 while command != command.downcase
-  puts 'NOT SINCE' + rand(2000)
+  puts 'NOT SINCE' + rand(2000).to_s
   command = gets.chomp
 end
