@@ -5,7 +5,7 @@ command = ''
 puts hello grandma
 
 if command != 'command.upcase'
-  puts HUH?! SPEAK UP, SONN
+  puts 'HUH?! SPEAK UP, SON!
   command = gets.chomp
 
 
