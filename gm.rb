@@ -1,4 +1,3 @@
-puts hi grandma
 
 command = ''
 
