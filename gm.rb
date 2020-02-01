@@ -6,4 +6,4 @@ while command == command.downcase
   command = gets.chomp
 end
 
-else puts 'NOT SINCE ' + (rand(1000).to_s) + '!'
+puts 'NOT SINCE ' + (rand(1000).to_s) + '!'
