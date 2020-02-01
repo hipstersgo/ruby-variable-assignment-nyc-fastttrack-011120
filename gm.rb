@@ -1,12 +1,10 @@
-
-
 command = ''
 
-puts hello grandma
-
 while command != 'command.downcase'
-  puts 'HUH?! SPEAK UP, SON!
+  puts 'HUH?! SPEAK UP, SON!'
+  command = gets.chomp
+else
+  if command == 'command.upcase'
+  puts 'NO, NOT SINCE 1938!!'
   command = gets.chomp
 end
-
-puts 'NO, NOT SINCE 1938!!'
