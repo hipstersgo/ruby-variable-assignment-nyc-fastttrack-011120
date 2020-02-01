@@ -7,5 +7,4 @@ while command != 'command.downcase'
 if command == 'command.upcase'
   puts 'NO, NOT SINCE 1938!!'
   command = gets.chomp
-
 end
