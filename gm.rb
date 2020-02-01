@@ -1,6 +1,6 @@
 command = ''
 
-while command != command.capitalize
+while command != 'command.capitalize'
   puts 'HUH?! SPEAK UP, SONNY!'
   command = gets.chomp
 end
