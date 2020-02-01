@@ -1,8 +1,8 @@
 command = ''
+command = gets.chomp
 
-if command != 'command.downcase'
+while command != 'command.downcase'
   puts 'HUH?! SPEAK UP, SON!'
-  command = gets.chomp
 else
   if command == 'command.upcase'
   puts 'NO, NOT SINCE 1938!!'
