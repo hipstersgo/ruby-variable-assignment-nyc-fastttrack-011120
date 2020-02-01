@@ -3,7 +3,7 @@ puts 'hey grandma!'
 
 command = ''
 
-while command != 'command.UPCASE'
+while command != 'command.upcase'
   puts 'HUH?! SPEAK UP, SONNY!'
   command = gets.chomp
 end
