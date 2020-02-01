@@ -1,7 +1,7 @@
 puts 'Hi Grandma!'
 command = gets.chomp
 
-if command == command.downcase
+while command == command.downcase
   puts 'HUH?! SPEAK UP, SON!'
   command = gets.chomp
 else
