@@ -1,6 +1,6 @@
-command = ''
-
 puts hi grandma
+
+command = ''
 
 while command != 'command.downcase'
   puts 'HUH?! SPEAK UP, SON!'
