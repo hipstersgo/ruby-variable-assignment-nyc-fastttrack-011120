@@ -6,7 +6,7 @@ while command == command.downcase
   command = gets.chomp
 end
 
-while commandd != command.downcase
+while command != command.downcase
   puts 'NOT SINCE (rand1000)'
   command = gets.chomp
 end
