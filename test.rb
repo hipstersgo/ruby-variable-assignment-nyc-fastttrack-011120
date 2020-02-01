@@ -1,6 +1,6 @@
 command = ''
 
-while command = 'bye'
+while command != 'bye'
   puts command
   command = gets.chomp
 end
