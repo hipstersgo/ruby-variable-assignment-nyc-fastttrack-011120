@@ -9,3 +9,4 @@ end
 var1 = (rand2000)
 if command != command.downcase
   puts 'NOT SINCE ' + var1 + '!'
+  command = gets.chomp
