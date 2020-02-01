@@ -5,7 +5,7 @@ command = ''
 puts hello grandma
 command = gets.chomp
 
-if command =! 'command.lowercase'
+if command != 'command.downcase'
   puts 'HUH?! SPEAK UP, SON!
 else
   if command == 'command.upcase'
