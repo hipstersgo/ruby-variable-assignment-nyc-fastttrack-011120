@@ -12,5 +12,3 @@ else
   puts 'NO, NOT SINCE 1938!!'
   command = gets.chomp
 end
-
-puts 'NO, NOT SINCE 1938!'
