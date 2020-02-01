@@ -1,5 +1,4 @@
 command = ''
-command = gets.chomp
 
 while command != 'command.downcase'
   puts 'HUH?! SPEAK UP, SON!'
