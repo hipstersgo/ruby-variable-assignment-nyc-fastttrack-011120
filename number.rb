@@ -3,4 +3,5 @@ number = gets.chomp
 var1 = number
 puts var1
 puts var1 + ' is a fine number! '
-puts 'but ' + (var1.to_i + 1) + ' is a better number! '
+var2 = var1.to_i + 1
+puts var2
